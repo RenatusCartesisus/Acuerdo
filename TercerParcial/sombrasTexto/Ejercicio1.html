@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Nota: est apropiedad no la soporta Internet Explorer. -->
+
+    <!-- Existen cuatro valores para la propiedad text-shadow: -->
+
+    <!-- 
+        ? El desplazamiento horizontal de la sombra. Positivo a la derecha y negativo a la izquierda.
+        *El desplazamiento vertical, un valor negativo dispone la sombra en la parte superior del texto, una sombra positiva dispone al texto en la parte inferior
+        ?El radio de desenfoque. 0 es liso y 1 es borroso.
+        *Color de la sombra
+     -->
+
+     <style>
+        #titulo1{
+            text-shadow: 5px 5px 5px #aaa;
+        }
+        #titulo2{
+            text-shadow: -5px 5px 5px #aaa;
+        }
+        #titulo3{
+            text-shadow: 3px 3px 5px #f00,
+                         6px 6px 5px #0f0,
+                         9px 9px 5px #00f;
+        }
+        h1{
+            font-size: 50px;
+        }
+        body{
+            background: #fff;
+            margin: 20px;
+        }
+     </style>
+
+     <h1 id="titulo1">Titulo sombreado</h1>
+     <h1 id="titulo2">Titulo sombreado</h1>
+     <h1 id="titulo3">Titulo sombreado</h1>
+
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!-- box-shadow = propiedad que permite definir una sombra a un objeto de la pagina. Debemos definir tres valores y un color, por ejemplo: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="recuadro1">
+        <h3>Recuadro 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident accusamus nam id ex, aliquam amet. Debitis, molestias aspernatur distinctio quos labore maxime, non, esse vero aliquam deleniti voluptas enim aut?</p>
+    </div>
+    
+    <style>
+        #recuadro1{
+            box-shadow: 30px 10px 20px #aaa;
+            /* 
+            La propiedad tiene tres valores y un color. Los valores son:
+            -Desplazamiento horizontal de la sombra.Positivo es a la derecha y negativo es a la izquierda.
+            -El desplazamiento vertical, uno negativo va a mover la sombra hacia arriba, uno positivo hacia abajo.
+            -El tercer parametro es el radio de desenfoque, mientras mayor sea, sera mas borrosa.
+
+            -El valor al final es el color de la sombra.
+            */
+            border-radius: 20px;
+            background-color: #ddd;
+            width: 200px;
+            padding: 10px;
+        }
+    </style>
+</body>
+</html>
